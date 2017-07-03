@@ -4,7 +4,7 @@ $(document).ready(function(){
 		addTask(e);
 	});
 
-	// Edit Event
+	// Edit Task Event
 	$('#edit-task-form').on('submit', function(e){
 		updateTask(e);
 	});
